@@ -10,5 +10,3 @@
 // var myVar = 5;
 // a();
 // console.log(myVar); // 5
-
-console.log(3 >> 1);

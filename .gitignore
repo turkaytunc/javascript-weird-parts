@@ -1,4 +1,5 @@
 /node_modules
 
 commit.sh
-package.lock.json
+compile.sh
+package-lock.json
