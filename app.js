@@ -11,16 +11,4 @@
 // a();
 // console.log(myVar); // 5
 
-// function waitFiveSeconds() {
-// 	console.time('calc');
-// 	console.log('function started!');
-
-// 	let ms = 5000 + new Date().getTime();
-
-// 	while (new Date() < ms) {}
-
-// 	console.log('function finished');
-// 	console.timeEnd('calc');
-// }
-
-// waitFiveSeconds();
+console.log(3 >> 1);

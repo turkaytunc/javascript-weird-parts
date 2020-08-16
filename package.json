@@ -1,0 +1,20 @@
+{
+  "name": "javascript-weird-parts",
+  "version": "1.0.0",
+  "description": "beginner to advence javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turkaytunc/javascript-weird-parts.git"
+  },
+  "keywords": [],
+  "author": "Türkay Tunç",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turkaytunc/javascript-weird-parts/issues"
+  },
+  "homepage": "https://github.com/turkaytunc/javascript-weird-parts#readme"
+}
