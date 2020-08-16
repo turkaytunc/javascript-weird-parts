@@ -1,1 +1,1 @@
-console.log(3 >> 1);
+console.log(Object.is(null, undefined));

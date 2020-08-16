@@ -4,7 +4,7 @@
   "description": "beginner to advence javascript",
   "main": "app.js",
   "scripts": {
-    "start": "sh compile.sh",
+    "compile": "sh compile.sh",
     "commit": "sh commit.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
