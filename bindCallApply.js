@@ -13,7 +13,7 @@ let logName = function (lang1, lang2) {
   console.log('-----------');
 };
 
-let logPersonName = logName.bind(person); //binding this keyword
+let logPersonName = logName.bind(person); //binding this keyword, returns copy of function.
 logPersonName('en');
 
 logName.call(person, 'en', 'es'); //binds this keyword to given object and calls function
