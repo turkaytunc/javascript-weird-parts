@@ -1,20 +1,26 @@
-function buildFunction() {
-  let arr = [];
+// let hide = (function hide() {
+//   let name = 'bilal';
+//   let count = 0;
 
-  for (let i = 0; i < 3; i++) {
-    arr.push(
-      (function (j) {
-        return function () {
-          console.log(j);
-        };
-      })(i)
-    );
-  }
-  return arr;
-}
+//   return function () {
+//     name = name + ' ' + count++;
+//     return name;
+//   };
+// })();
 
-let bf = buildFunction();
+// console.log(hide());
 
-bf[0]();
-bf[1]();
-bf[2]();
+let bf = (function () {
+  let name = 'bilal';
+  let surname = 'ERDOGAN';
+
+  let nameObj = {
+    get fullName() {
+      return name + ' ' + surname;
+    },
+  };
+
+  return nameObj;
+})();
+
+console.log(bf.fullName);
